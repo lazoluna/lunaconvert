@@ -1,2 +1,39 @@
 # lunaconvert
 bash script for encoding flac and wave to mp3 + few extras
+
+A script for comfortably encoding Musik on a linux machine.
+
+!! Remember to first create your input and output folder and edit the script to add your defaults. !!
+!! Follow the white Rabbit !!
+
++    added a menustructure for comfortable use
++    added 24Bit 96Khz support
++    added subfolder depth support
++    added improved name cleanup for foldernames
++    added batch encode
++    added menu to choose desired outputs
++    added supoort to encode specific folder directly without copying to Input Folder
++    added check if folder exist / skip if empty
++    added check if ffmpeg & mktorrent is present
++    added option to create a torrent for every folder in outputfolder
++    added option to shrink flac to V0 for every folder in Inputfolder without creating torrent (for making music transportable)
++    added option to change announce url
++    added multi tracker support
+
+Main Menu:
+
+(1)  Encode from Wav + make .torrents
+
+(2)  Encode from Flac + make .torrents
+
+(3)  Encode specific folder and make .torrent
+
+(4)  Encode from INPUT to [MP3 V0] in OUTPUT (no .torrent)
+
+(5) Rebuild .torrent for every folder in OUTPUT
+
+(6)  change announce url for this session
+
+(x) clear folder
+
+(00) quit
