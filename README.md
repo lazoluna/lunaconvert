@@ -1,5 +1,5 @@
 # lunaconvert
-bash script for encoding flac and wave to mp3 + few extras
+bash script for encoding wav / flac / mp3 + few extras
 
 I worte this script to keep me alive during corona times. Everybody shall use it for free. Share the music and enjoy everthing.
 
