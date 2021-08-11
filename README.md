@@ -1,7 +1,7 @@
 # lunaconvert
 bash script for encoding flac and wave to mp3 + few extras
 
-I worte this script to keep my alive during corona times. Everybody shall use it for free. Share the music and enjoy everthing.
+I worte this script to keep me alive during corona times. Everybody shall use it for free. Share the music and enjoy everthing.
 
 A script for comfortably encoding Musik on a linux machine. If you rip your Vinyls, you might love this. It now supports 32bit float 96khz wav files as input to convert to other formats such as flac 24Bit 96Khz and more. Tags will be same as input and subfolders are supported as well as copying artwork from source to destination.
 
