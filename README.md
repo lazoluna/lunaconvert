@@ -21,6 +21,7 @@ A script for comfortably encoding Musik on a linux machine. If you rip your Viny
 +    added option to shrink flac to V0 for every folder in Inputfolder without creating torrent (for making music transportable)
 +    added option to change announce url
 +    added multi tracker support
++    added support for changing piece size
 
 Main Menu:
 
@@ -32,9 +33,9 @@ Main Menu:
 
 (4)  Encode from INPUT to [MP3 V0] in OUTPUT (no .torrent)
 
-(5) Rebuild .torrent for every folder in OUTPUT
+(5)  Rebuild .torrent for every folder in OUTPUT
 
-(6)  change announce url for this session
+(6)  change announce url / piece size
 
 (x) clear folder
 
